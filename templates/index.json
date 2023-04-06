@@ -22,7 +22,7 @@
           "type": "button",
           "settings": {
             "button_label": "Button label",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
@@ -61,11 +61,10 @@
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": true
           }
         }
       },
@@ -76,45 +75,123 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/stacks-of-pillows-and-blankets.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
-        "image_behavior": "none",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "a8552e9a-f836-4940-b842-c43eb5f24185": {
+      "type": "collage",
+      "blocks": {
+        "template--18488366498071__a8552e9a-f836-4940-b842-c43eb5f24185-16808088849b13e900-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "template--18488366498071__a8552e9a-f836-4940-b842-c43eb5f24185-16808088849b13e900-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pillow-cropped.png"
+          }
+        },
+        "template--18488366498071__a8552e9a-f836-4940-b842-c43eb5f24185-16808088849b13e900-1": {
+          "type": "product",
+          "settings": {
+            "product": "premium-pillow-4",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18488366498071__a8552e9a-f836-4940-b842-c43eb5f24185-16808088849b13e900-2",
+        "template--18488366498071__a8552e9a-f836-4940-b842-c43eb5f24185-16808088849b13e900-0",
+        "template--18488366498071__a8552e9a-f836-4940-b842-c43eb5f24185-16808088849b13e900-1"
+      ],
       "custom_css": [
         ".card__heading {font-size: 2.5rem;}"
       ],
       "settings": {
-        "title": "Affirmations Collection",
+        "heading": "Affirmations Collection",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165b6312-66dd-42a0-a60c-ceea34c9aed7": {
+      "type": "collage",
+      "blocks": {
+        "template--18488366498071__165b6312-66dd-42a0-a60c-ceea34c9aed7-16808088849b13e900-1": {
+          "type": "product",
+          "settings": {
+            "product": "vibrant-pillow-1",
+            "second_image": false
+          }
+        },
+        "8489c081-a216-41b8-a073-1bc5adf9016b": {
+          "type": "product",
+          "settings": {
+            "product": "serenity-pillow",
+            "second_image": false
+          }
+        },
+        "template--18488366498071__165b6312-66dd-42a0-a60c-ceea34c9aed7-16808088849b13e900-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "heritage-vibes"
+          }
+        }
+      },
+      "block_order": [
+        "template--18488366498071__165b6312-66dd-42a0-a60c-ceea34c9aed7-16808088849b13e900-1",
+        "8489c081-a216-41b8-a073-1bc5adf9016b",
+        "template--18488366498071__165b6312-66dd-42a0-a60c-ceea34c9aed7-16808088849b13e900-2"
+      ],
+      "custom_css": [
+        ".card__heading {font-size: 2.5rem;}"
+      ],
+      "settings": {
+        "heading": "Heritage Vibes Collection",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".card__heading {font-size: 2.5rem;}",
+        "button {color: white; background-color: #af6a14; border-radius: 2em;}"
+      ],
+      "settings": {
+        "title": "All Products",
         "heading_size": "h0",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "frontpage",
+        "collection": "all-products",
         "products_to_show": 8,
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
@@ -122,47 +199,7 @@
         "enable_quick_add": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "enable_quick_add": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "991b9755-d0bf-4652-bbea-65936f4d9e90": {
-      "type": "featured-collection",
-      "custom_css": [
-        ".card__heading {font-size: 2.5rem;}"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "padding_top": 36,
+        "padding_top": 100,
         "padding_bottom": 36
       }
     }
@@ -170,9 +207,8 @@
   "order": [
     "34cb1a4c-300b-42f5-8430-1d509427f747",
     "image_banner",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "a8552e9a-f836-4940-b842-c43eb5f24185",
+    "165b6312-66dd-42a0-a60c-ceea34c9aed7",
+    "featured_collection"
   ]
 }
