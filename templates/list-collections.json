@@ -2,10 +2,15 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "custom_css": [
+        ".card__heading {font-size: 2.5rem;}"
+      ],
       "settings": {
         "title": "Collections",
         "sort": "alphabetical",
-        "image_ratio": "square"
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "columns_mobile": "1"
       }
     }
   },
