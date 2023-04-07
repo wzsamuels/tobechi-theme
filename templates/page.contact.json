@@ -1,7 +1,39 @@
 {
   "sections": {
+    "39f69217-9cc3-4020-9211-a312df9b113e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18491560132887__39f69217-9cc3-4020-9211-a312df9b113e-16808352871c35c8b8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reach Out to Us",
+            "heading_size": "h0"
+          }
+        },
+        "template--18491560132887__39f69217-9cc3-4020-9211-a312df9b113e-16808352871c35c8b8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We love hearing from our customers! Let us know if you've enjoyed our products or if there's anything we can do to help.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18491560132887__39f69217-9cc3-4020-9211-a312df9b113e-16808352871c35c8b8-0",
+        "template--18491560132887__39f69217-9cc3-4020-9211-a312df9b113e-16808352871c35c8b8-1"
+      ],
+      "settings": {
+        "text_size": 16,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 0
@@ -9,6 +41,9 @@
     },
     "form": {
       "type": "contact-form",
+      "custom_css": [
+        "button {background-color: #1478af;}"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -19,6 +54,7 @@
     }
   },
   "order": [
+    "39f69217-9cc3-4020-9211-a312df9b113e",
     "main",
     "form"
   ]

@@ -513,7 +513,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: block;
 }
 
-.twcss-text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.twcss-flex {
+  display: flex;
+}
+
+.twcss-justify-center {
+  justify-content: center;
 }

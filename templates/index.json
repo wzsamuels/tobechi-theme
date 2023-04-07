@@ -121,7 +121,7 @@
         "heading": "Affirmations Collection",
         "heading_size": "h1",
         "desktop_layout": "left",
-        "mobile_layout": "column",
+        "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
@@ -164,7 +164,7 @@
         "heading": "Heritage Vibes Collection",
         "heading_size": "h1",
         "desktop_layout": "right",
-        "mobile_layout": "column",
+        "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
@@ -175,7 +175,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".card__heading {font-size: 2.5rem;}",
-        "button {color: white; background-color: #af6a14; border-radius: 2em;}"
+        "button {color: white; background-color: #1478af;}"
       ],
       "settings": {
         "title": "All Products",
@@ -185,8 +185,8 @@
         "description_style": "body",
         "collection": "all-products",
         "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": true,
+        "columns_desktop": 3,
+        "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
