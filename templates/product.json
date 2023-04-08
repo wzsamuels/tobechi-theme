@@ -85,6 +85,9 @@
     },
     "related-products": {
       "type": "related-products",
+      "custom_css": [
+        ".full-unstyled-link {font-size: 2.5rem;}"
+      ],
       "settings": {
         "heading": "You may also like",
         "heading_size": "h1",

@@ -17,7 +17,7 @@
         "announcement-bar-0"
       ],
       "custom_css": [
-        "span {font-size: 16px;}"
+        "span {font-size: 2.5rem;}"
       ],
       "settings": {
         "color_scheme": "accent-1",
@@ -29,7 +29,8 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header__heading {font-size: 5rem;}"
+        ".header__heading-link .h2 {font-size: 3.25rem;}",
+        ".header__menu-item span {font-size: 1.5rem;}"
       ],
       "settings": {
         "logo_position": "middle-center",

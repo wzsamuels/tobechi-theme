@@ -74,8 +74,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/stacks-of-pillows-and-blankets.jpg",
+        "image_2": "shopify:\/\/shop_images\/all-over-print-premium-pillow-18x18-front-641e3f3cdddc2.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -95,27 +96,28 @@
             "collection": "frontpage"
           }
         },
-        "template--18488366498071__a8552e9a-f836-4940-b842-c43eb5f24185-16808088849b13e900-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pillow-cropped.png"
-          }
-        },
         "template--18488366498071__a8552e9a-f836-4940-b842-c43eb5f24185-16808088849b13e900-1": {
           "type": "product",
           "settings": {
-            "product": "premium-pillow-4",
+            "product": "premium-pillow-1",
+            "second_image": false
+          }
+        },
+        "8c0afdbe-a55d-4914-9a85-bff53bedadeb": {
+          "type": "product",
+          "settings": {
+            "product": "premium-pillow-2",
             "second_image": false
           }
         }
       },
       "block_order": [
         "template--18488366498071__a8552e9a-f836-4940-b842-c43eb5f24185-16808088849b13e900-2",
-        "template--18488366498071__a8552e9a-f836-4940-b842-c43eb5f24185-16808088849b13e900-0",
-        "template--18488366498071__a8552e9a-f836-4940-b842-c43eb5f24185-16808088849b13e900-1"
+        "template--18488366498071__a8552e9a-f836-4940-b842-c43eb5f24185-16808088849b13e900-1",
+        "8c0afdbe-a55d-4914-9a85-bff53bedadeb"
       ],
       "custom_css": [
-        ".card__heading {font-size: 2.5rem;}"
+        ".card__heading {font-size: 3rem;}"
       ],
       "settings": {
         "heading": "Affirmations Collection",
@@ -158,7 +160,7 @@
         "template--18488366498071__165b6312-66dd-42a0-a60c-ceea34c9aed7-16808088849b13e900-2"
       ],
       "custom_css": [
-        ".card__heading {font-size: 2.5rem;}"
+        ".card__heading {font-size: 3rem;}"
       ],
       "settings": {
         "heading": "Heritage Vibes Collection",
@@ -174,7 +176,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".card__heading {font-size: 2.5rem;}",
+        ".card__heading {font-size: 3rem;}",
         "button {color: white; background-color: #1478af;}"
       ],
       "settings": {
