@@ -4,6 +4,20 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "f020cda8-4b40-49ad-80fb-94271732d55f": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        }
+      },
+      "block_order": [
+        "f020cda8-4b40-49ad-80fb-94271732d55f"
+      ],
+      "custom_css": [
+        ".footer-block__heading {font-size: 3rem;}"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": true,

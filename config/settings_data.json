@@ -107,6 +107,8 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
+    "brand_headline": "Tobechi Essentials",
+    "brand_description": "<p>info@tobechiessentials.com<\/p>",
     "social_facebook_link": "",
     "social_instagram_link": "",
     "social_youtube_link": "",
@@ -285,7 +287,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-
+      ".footer__content-top .grid {font-size: 1.25em;}"
     ]
   }
 }
