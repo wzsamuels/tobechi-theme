@@ -10,6 +10,9 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        ".full-unstyled-link {font-size: 2.5rem;}"
+      ],
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 2,
