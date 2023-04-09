@@ -16,8 +16,9 @@
         "f020cda8-4b40-49ad-80fb-94271732d55f"
       ],
       "custom_css": [
-        ".footer-block__heading {font-size: 3rem;}",
-        ".footer-block__heading .inline-richtext {font-size: 1rem;}"
+        ".footer-block__heading {font-size: 3rem; color: black;}",
+        ".footer-block__heading .inline-richtext {color: black; font-size: 1rem;}",
+        ".rte > p {color: black;}"
       ],
       "settings": {
         "color_scheme": "background-1",
