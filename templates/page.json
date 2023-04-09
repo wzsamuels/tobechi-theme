@@ -24,13 +24,16 @@
         "template--18491637334295__d9a9d218-ad5b-4851-aad3-4f2942cdb46e-16807445717ccb0aa1-1": {
           "type": "text",
           "settings": {
-            "text": "<p>I have always had a passion for design. I wanted to channel my creativity into home decor; to infuse unique styles with colors (a nod to my heritage) and positive messages to households.  Before I knew it Tobechi Essentials was born. Each pillow has its own colorful design with a tiny elephant embossed on it. <\/p><p>Why an elephant with upwards trunk? I have an affinity for them and what they symbolize. Elephants with trunks that are positioned upwards are a symbol of luck, positive energy, and kindness. <\/p><p><em> My hope is to inspire those who hesitate and fear the what ifs.<\/em><\/p>"
+            "text": "<p><strong>I have always had a passion for design. I wanted to channel my creativity into home decor; to infuse unique styles with colors (a nod to my heritage) and positive messages to households.  Before I knew it Tobechi Essentials was born. Each pillow has its own colorful design with a tiny elephant embossed on it. <\/strong><\/p><p><strong>Why an elephant with upwards trunk? I have an affinity for them and what they symbolize. Elephants with trunks that are positioned upwards are a symbol of luck, positive energy, and kindness. <\/strong><\/p><p><em><strong> My hope is to inspire those who hesitate and fear the what ifs.<\/strong><\/em><\/p>"
           }
         }
       },
       "block_order": [
         "template--18491637334295__d9a9d218-ad5b-4851-aad3-4f2942cdb46e-16807445717ccb0aa1-0",
         "template--18491637334295__d9a9d218-ad5b-4851-aad3-4f2942cdb46e-16807445717ccb0aa1-1"
+      ],
+      "custom_css": [
+        "p{color: black;}"
       ],
       "settings": {
         "text_size": 22,
