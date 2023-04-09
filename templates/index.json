@@ -1,48 +1,5 @@
 {
   "sections": {
-    "f8695db5-eb53-4e1e-90c8-027305c828a3": {
-      "type": "image-banner",
-      "blocks": {
-        "7c86d9f8-dd2d-430e-9fb6-099577e521d0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Style x Positivity",
-            "heading_size": "h0"
-          }
-        }
-      },
-      "block_order": [
-        "7c86d9f8-dd2d-430e-9fb6-099577e521d0"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/stacks-of-pillows-and-blankets_66cfac73-9a8b-4d5e-b935-889ef27f94f8.png",
-        "image_overlay_opacity": 40,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "5609cc35-c501-48f6-a9e0-82ce92cdcc78": {
-      "type": "rich-text",
-      "settings": {
-        "text_size": 16,
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -204,8 +161,6 @@
     }
   },
   "order": [
-    "f8695db5-eb53-4e1e-90c8-027305c828a3",
-    "5609cc35-c501-48f6-a9e0-82ce92cdcc78",
     "image_banner",
     "a8552e9a-f836-4940-b842-c43eb5f24185",
     "165b6312-66dd-42a0-a60c-ceea34c9aed7",
