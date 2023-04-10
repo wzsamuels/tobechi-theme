@@ -27,8 +27,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/stacks-of-pillows-and-blankets.jpg",
-        "image_2": "shopify:\/\/shop_images\/all-over-print-premium-pillow-18x18-front-641e3f3cdddc2.jpg",
+        "image": "shopify:\/\/shop_images\/all-over-print-premium-pillow-18x18-front-641e3f3cdddc2.jpg",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
