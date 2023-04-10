@@ -5,20 +5,30 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "f020cda8-4b40-49ad-80fb-94271732d55f": {
+        "45903c94-6af3-4ba9-9306-192464f0cf99": {
           "type": "brand_information",
           "settings": {
             "show_social": true
           }
+        },
+        "e91c6386-199e-4597-a50c-de929bbb2086": {
+          "type": "text",
+          "settings": {
+            "heading": "Our Mission",
+            "subtext": "<p>We're dedicated to sharing positivity the best quality pillows<\/p>"
+          }
         }
       },
       "block_order": [
-        "f020cda8-4b40-49ad-80fb-94271732d55f"
+        "45903c94-6af3-4ba9-9306-192464f0cf99",
+        "e91c6386-199e-4597-a50c-de929bbb2086"
       ],
       "custom_css": [
         ".footer-block__heading {font-size: 3rem; color: black;}",
         ".footer-block__heading .inline-richtext {color: black; font-size: 1rem;}",
-        ".rte > p {color: black;}"
+        ".rte > p {color: black;}",
+        ".footer__content-top {padding-bottom: 0;}",
+        ".footer__content-bottom {padding: 0;}"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -30,7 +40,7 @@
         "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": false,
-        "margin_top": 32,
+        "margin_top": 0,
         "padding_top": 0,
         "padding_bottom": 0
       }
