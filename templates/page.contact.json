@@ -21,6 +21,9 @@
         "template--18491560132887__39f69217-9cc3-4020-9211-a312df9b113e-16808352871c35c8b8-0",
         "template--18491560132887__39f69217-9cc3-4020-9211-a312df9b113e-16808352871c35c8b8-1"
       ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
       "settings": {
         "text_size": 16,
         "desktop_content_position": "center",
@@ -42,7 +45,7 @@
     "form": {
       "type": "contact-form",
       "custom_css": [
-        "button {background-color: #1478af;}"
+        "button {background-color: #1478af; border-color: #1478af;}"
       ],
       "settings": {
         "heading": "",
