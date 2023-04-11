@@ -1,39 +1,42 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "34d8c320-daba-4a5b-b99b-b7072f052d63": {
+      "type": "ts-image-banner",
       "blocks": {
-        "heading": {
+        "template--18491639333143__34d8c320-daba-4a5b-b99b-b7072f052d63-168116547531ebddf6-0": {
           "type": "heading",
           "settings": {
             "heading": "Style x Positivity",
             "heading_size": "h0"
           }
         },
-        "button": {
+        "template--18491639333143__34d8c320-daba-4a5b-b99b-b7072f052d63-168116547531ebddf6-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Shop All",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": true
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "template--18491639333143__34d8c320-daba-4a5b-b99b-b7072f052d63-168116547531ebddf6-0",
+        "template--18491639333143__34d8c320-daba-4a5b-b99b-b7072f052d63-168116547531ebddf6-2"
       ],
       "custom_css": [
-
+        "a {background-color: transparent; color: white;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/all-over-print-premium-pillow-18x18-front-641e3f3cdddc2.jpg",
+        "image2": "shopify:\/\/shop_images\/purposeful-pillow.jpg",
+        "image3": "shopify:\/\/shop_images\/empowered-pillow.jpg",
+        "image4": "shopify:\/\/shop_images\/you-are-loved-pillow.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "medium",
-        "desktop_content_position": "bottom-center",
+        "image_height": 70,
+        "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
@@ -163,7 +166,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "34d8c320-daba-4a5b-b99b-b7072f052d63",
     "a8552e9a-f836-4940-b842-c43eb5f24185",
     "165b6312-66dd-42a0-a60c-ceea34c9aed7",
     "featured_collection"

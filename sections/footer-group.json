@@ -10,18 +10,10 @@
           "settings": {
             "show_social": true
           }
-        },
-        "e91c6386-199e-4597-a50c-de929bbb2086": {
-          "type": "text",
-          "settings": {
-            "heading": "Our Mission",
-            "subtext": "<p>We're dedicated to sharing positivity the best quality pillows<\/p>"
-          }
         }
       },
       "block_order": [
-        "45903c94-6af3-4ba9-9306-192464f0cf99",
-        "e91c6386-199e-4597-a50c-de929bbb2086"
+        "45903c94-6af3-4ba9-9306-192464f0cf99"
       ],
       "custom_css": [
         ".footer-block__heading {font-size: 3rem; color: black;}",
