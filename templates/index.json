@@ -134,10 +134,10 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "disabled": true,
       "custom_css": [
         ".card__heading {font-size: 3em;}",
-        "button {color: white; background-color: #1478af;}"
+        "button {color: white; background-color: #1478af;}",
+        ".color-background-1 {display: none;}"
       ],
       "settings": {
         "title": "All Products",
@@ -238,7 +238,7 @@
       "custom_css": [
         ".full-unstyled-link {font-size: 24px;}",
         "button {color: white; background-color: #1478af;}",
-        ".ts-header {display: flex; justify-content: center; margin-bottom: 2rem;}"
+        ".ts-header {display: flex; justify-content: flex-start; margin-left: 5rem; margin-bottom: 2rem;}"
       ],
       "settings": {
         "header": "All Products",
