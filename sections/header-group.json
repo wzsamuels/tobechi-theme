@@ -30,7 +30,7 @@
       "type": "header",
       "custom_css": [
         ".header__heading-link .h2 {font-size: 4rem;}",
-        ".header__menu-item span {font-size: 1.75rem;}"
+        ".header__menu-item {font-size: 2rem;}"
       ],
       "settings": {
         "logo_position": "middle-center",

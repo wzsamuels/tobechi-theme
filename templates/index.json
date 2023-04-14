@@ -35,8 +35,8 @@
         "image3": "shopify:\/\/shop_images\/empowered-pillow.jpg",
         "image4": "shopify:\/\/shop_images\/you-are-loved-pillow.jpg",
         "image_overlay_opacity": 40,
-        "image_height": 70,
-        "desktop_content_position": "top-center",
+        "image_height": 50,
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
@@ -134,8 +134,9 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
-        ".card__heading {font-size: 3rem;}",
+        ".card__heading {font-size: 3em;}",
         "button {color: white; background-color: #1478af;}"
       ],
       "settings": {
@@ -163,12 +164,98 @@
         "padding_top": 100,
         "padding_bottom": 36
       }
+    },
+    "56e30e1d-004b-4ea1-a293-8ab708538614": {
+      "type": "flex",
+      "blocks": {
+        "7083476d-48f0-490c-89a4-1955eba7e818": {
+          "type": "product",
+          "settings": {
+            "product": "dreamscape-pillow",
+            "second_image": false
+          }
+        },
+        "b9a740b8-f08a-4ae9-a056-1e7eadac3845": {
+          "type": "product",
+          "settings": {
+            "product": "premium-pillow-2",
+            "second_image": false
+          }
+        },
+        "3452c82a-f848-4a8a-a19e-2934249fdd75": {
+          "type": "product",
+          "settings": {
+            "product": "premium-pillow-4",
+            "second_image": false
+          }
+        },
+        "4136154d-aa56-4c6b-ac0f-b7f389e760f0": {
+          "type": "product",
+          "settings": {
+            "product": "premium-pillow-1",
+            "second_image": false
+          }
+        },
+        "38c9476b-1375-404e-8260-4679ee7d34ab": {
+          "type": "product",
+          "settings": {
+            "product": "purposeful-pillow-1",
+            "second_image": false
+          }
+        },
+        "b114875d-460e-4ec3-98ef-f67495e6496a": {
+          "type": "product",
+          "settings": {
+            "product": "vibrant-pillow",
+            "second_image": false
+          }
+        },
+        "345d09f4-f3d6-4a69-a746-014bda584a8d": {
+          "type": "product",
+          "settings": {
+            "product": "serenity-pillow",
+            "second_image": false
+          }
+        },
+        "36f871ba-4807-4933-a3d5-9cf453336f1b": {
+          "type": "product",
+          "settings": {
+            "product": "vibrant-pillow-1",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "7083476d-48f0-490c-89a4-1955eba7e818",
+        "b9a740b8-f08a-4ae9-a056-1e7eadac3845",
+        "3452c82a-f848-4a8a-a19e-2934249fdd75",
+        "4136154d-aa56-4c6b-ac0f-b7f389e760f0",
+        "38c9476b-1375-404e-8260-4679ee7d34ab",
+        "b114875d-460e-4ec3-98ef-f67495e6496a",
+        "345d09f4-f3d6-4a69-a746-014bda584a8d",
+        "36f871ba-4807-4933-a3d5-9cf453336f1b"
+      ],
+      "custom_css": [
+        ".full-unstyled-link {font-size: 24px;}",
+        "button {color: white; background-color: #1478af;}",
+        ".ts-header {display: flex; justify-content: center; margin-bottom: 2rem;}"
+      ],
+      "settings": {
+        "header": "All Products",
+        "header_size": 54,
+        "gap": 16,
+        "height": 500,
+        "width": 400,
+        "justify_content": "space-evenly",
+        "bg_color": "#ffffff"
+      }
     }
   },
   "order": [
     "34d8c320-daba-4a5b-b99b-b7072f052d63",
     "a8552e9a-f836-4940-b842-c43eb5f24185",
     "165b6312-66dd-42a0-a60c-ceea34c9aed7",
-    "featured_collection"
+    "featured_collection",
+    "56e30e1d-004b-4ea1-a293-8ab708538614"
   ]
 }

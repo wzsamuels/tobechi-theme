@@ -1,3 +1,177 @@
+{% style %}
+  .ts-flex-grid {
+    gap: {{ section.settings.gap }}px;
+    justify-content: {{ section.settings.justify_content }};
+  }
+
+  .ts-flex-item {
+    height: {{ section.settings.height }}px;
+    width: {{  section.settings.width }}px;
+    background-color: {{ section.settings.bg_color }};
+  }
+
+  .full-unstyled-link {
+    font-size: 24px;
+  }
+
+  .ts-header {
+    font-size: {{ section.settings.header_size }}px;
+  }
+{% endstyle %}
+
 <div>
+  <h2 class='ts-header'>{{ section.settings.header }}</h2>
+  <div class='twcss-flex twcss-w-full twcss-flex-wrap ts-flex-grid'>
+    {%- for block in section.blocks -%}
+      <div class='ts-flex-item'>
+        {%- case block.type -%}
+          {%- when 'product' -%}
+            {% render 'card-product',
+              card_product: block.settings.product,
+              media_aspect_ratio: 'adapt',
+              extend_height: true,
+              hover_quick_add: true
+            %}
+         {%- endcase -%}
+
+        {%- if block.settings.image != blank -%}
+          {{
+          block.settings.image
+          | image_url: width: 3200
+          | image_tag:
+          loading: 'lazy',
+          widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
+          sizes: sizes,
+          class: 'multicolumn-card__image'
+          }}
+        {%- endif -%}
+        {%- if block.settings.text != blank -%}
+          <p>{{  block.settings.text }}</p>
+        {%- endif -%}
+      </div>
+    {%  endfor %}
+  </div>
 </div>
 
+{% schema %}
+{
+  "name": "TS Flex",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Header",
+      "id": "header"
+    },
+    {
+      "type": "range",
+      "label": "Header Size",
+      "id": "header_size",
+      "min": 8,
+      "max": 92,
+      "default": 24
+    },
+    {
+      "type": "number",
+      "id": "gap",
+      "label": "Gap Size",
+      "default": 4
+    },
+    {
+      "type": "number",
+      "id": "height",
+      "label": "Height",
+      "default": 200
+    },
+    {
+      "type": "number",
+      "id": "width",
+      "label": "Width",
+      "default": 200
+    },
+    {
+      "type": "select",
+      "id": "justify_content",
+      "label": "Horizontal Alignment",
+      "options": [
+        {
+          "value": "flex-start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "flex-end",
+          "label": "Right"
+        },
+        {
+          "value": "space-between",
+          "label": "Space Between"
+        },
+        {
+          "value": "space-around",
+          "label": "Space Around"
+        },
+        {
+          "value": "space-evenly",
+          "label": "Space Evenly"
+        }
+      ],
+      "default": "flex-start"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#FFFFFF"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "column",
+      "name": "Flex Item",
+      "limit": 50,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "name": "t:sections.collage.blocks.product.name",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "t:sections.collage.blocks.product.settings.product.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "second_image",
+          "default": false,
+          "label": "t:sections.collage.blocks.product.settings.second_image.label"
+        }
+      ]
+    }
+  ],
+  "presets": [{
+    "name": "Flex Grid",
+    "settings": {
+      "header": "Slideshow"
+    },
+    "category": "Text"
+  }]
+}
+
+{% endschema %}
