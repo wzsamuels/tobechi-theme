@@ -8,7 +8,7 @@
         "45903c94-6af3-4ba9-9306-192464f0cf99": {
           "type": "brand_information",
           "settings": {
-            "show_social": true
+            "show_social": false
           }
         }
       },
