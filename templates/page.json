@@ -23,8 +23,9 @@
         },
         "template--18491637334295__d9a9d218-ad5b-4851-aad3-4f2942cdb46e-16807445717ccb0aa1-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p><strong>I have always had a passion for design. I wanted to channel my creativity into home decor; to infuse unique styles with colors (a nod to my heritage) and positive messages to households.  Before I knew it Tobechi Essentials was born. Each pillow has its own colorful design with a tiny elephant embossed on it. <\/strong><\/p><p><strong>Why an elephant with upwards trunk? I have an affinity for them and what they symbolize. Elephants with trunks that are positioned upwards are a symbol of luck, positive energy, and kindness. <\/strong><\/p><p><em><strong> My hope is to inspire those who hesitate and fear the what ifs.<\/strong><\/em><\/p>"
+            "text": "<p>I have always had a passion for design. I wanted to channel my creativity into home decor; to infuse unique styles with colors (a nod to my heritage) and positive messages to households.  Before I knew it Tobechi Essentials was born. Each pillow has its own colorful design with a tiny elephant embossed on it. <\/p><p>Why an elephant with upwards trunk? I have an affinity for them and what they symbolize. Elephants with trunks that are positioned upwards are a symbol of luck, positive energy, and kindness. <\/p><p><em> My hope is to inspire those who hesitate and fear the what ifs.<\/em><\/p>"
           }
         }
       },
@@ -33,21 +34,87 @@
         "template--18491637334295__d9a9d218-ad5b-4851-aad3-4f2942cdb46e-16807445717ccb0aa1-1"
       ],
       "custom_css": [
-        "p{color: black;}"
+        "p {color: black;}"
       ],
       "settings": {
         "text_size": 22,
         "desktop_content_position": "center",
-        "content_alignment": "left",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "a3eda5f2-4708-49e5-8c77-08d7e96adb34": {
+      "type": "image-with-text",
+      "blocks": {
+        "b49d589a-342f-49df-af7f-a7396f53afdc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I have always had a passion for design. I wanted to channel my creativity into home decor; to infuse unique styles with colors (a nod to my heritage) and positive messages to households.  Before I knew it Tobechi Essentials was born. Each pillow has its own colorful design with a tiny elephant embossed on it. <\/p><p><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "b49d589a-342f-49df-af7f-a7396f53afdc"
+      ],
+      "custom_css": [
+        "img {border-radius: 100%;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Jim_Halo_watercolor_painting_of_positivity_aspirations_gratitud_252fa943-79a2-4f1b-ab83-e74199e53f87.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d23389be-4d68-4789-b861-86cf6eddcfca": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18491560231191__d23389be-4d68-4789-b861-86cf6eddcfca-1681501167db70c1b2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Why an elephant with upwards trunk? I have an affinity for them and what they symbolize. Elephants with trunks that are positioned upwards are a symbol of luck, positive energy, and kindness. <\/p><p><em> My hope is to inspire those who hesitate and fear the what ifs.<\/em><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--18491560231191__d23389be-4d68-4789-b861-86cf6eddcfca-1681501167db70c1b2-1"
+      ],
+      "custom_css": [
+        "img {border-radius: 100%;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/landscape.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "d9a9d218-ad5b-4851-aad3-4f2942cdb46e"
+    "d9a9d218-ad5b-4851-aad3-4f2942cdb46e",
+    "a3eda5f2-4708-49e5-8c77-08d7e96adb34",
+    "d23389be-4d68-4789-b861-86cf6eddcfca"
   ]
 }
