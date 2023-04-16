@@ -1,8 +1,8 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/tobechi-logo-white-large-text.png",
+    "logo": "shopify:\/\/shop_images\/tobechi-logo-black.png",
     "logo_width": 160,
-    "colors_solid_button_labels": "#ffffff",
+    "colors_solid_button_labels": "#000000",
     "colors_accent_1": "#af6a14",
     "gradient_accent_1": "",
     "colors_accent_2": "#146a9b",

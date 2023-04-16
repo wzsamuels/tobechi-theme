@@ -28,7 +28,9 @@
         ".footer-block__heading .inline-richtext {color: black; font-size: 1rem;}",
         ".rte > p {color: black;}",
         ".footer__content-top {padding-bottom: 0;}",
-        ".footer__content-bottom {padding: 0;}"
+        ".footer__content-bottom {padding: 0;}",
+        ".grid__item {width: 100%;}",
+        ".grid {flex-direction: column;}"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -44,9 +46,20 @@
         "padding_top": 100,
         "padding_bottom": 0
       }
+    },
+    "afd25149-4e8a-45ee-b616-1f2149c62042": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "footer"
+    "footer",
+    "afd25149-4e8a-45ee-b616-1f2149c62042"
   ]
 }
