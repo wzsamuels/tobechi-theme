@@ -127,7 +127,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/tobechi-logo-black.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/tobechi-logo-color-black-background.png",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
