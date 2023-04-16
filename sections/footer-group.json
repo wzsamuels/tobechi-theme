@@ -10,10 +10,18 @@
           "settings": {
             "show_social": false
           }
+        },
+        "6d76d54a-7d86-4eee-8848-1f920b1ad670": {
+          "type": "text",
+          "settings": {
+            "heading": "Free Shipping Orders Over $50!",
+            "subtext": "<h6><strong>info@tobechiessentials.com<\/strong><\/h6>"
+          }
         }
       },
       "block_order": [
-        "45903c94-6af3-4ba9-9306-192464f0cf99"
+        "45903c94-6af3-4ba9-9306-192464f0cf99",
+        "6d76d54a-7d86-4eee-8848-1f920b1ad670"
       ],
       "custom_css": [
         ".footer-block__heading {font-size: 3rem; color: black;}",
