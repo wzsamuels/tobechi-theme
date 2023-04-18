@@ -14,7 +14,7 @@
         "6d76d54a-7d86-4eee-8848-1f920b1ad670": {
           "type": "text",
           "settings": {
-            "heading": "Free Shipping on All Orders Over $50!",
+            "heading": "Free Shipping On All Orders Over $50!",
             "subtext": "<h6><strong>info@tobechiessentials.com<\/strong><\/h6>"
           }
         }
@@ -30,7 +30,8 @@
         ".footer__content-top {padding-bottom: 0;}",
         ".footer__content-bottom {padding: 0;}",
         ".grid__item {width: 100%;}",
-        ".grid {flex-direction: column;}"
+        ".grid {flex-direction: column;}",
+        "strong {color: black;}"
       ],
       "settings": {
         "color_scheme": "background-1",
