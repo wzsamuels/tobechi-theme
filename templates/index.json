@@ -27,7 +27,8 @@
         "template--18491639333143__34d8c320-daba-4a5b-b99b-b7072f052d63-168116547531ebddf6-2"
       ],
       "custom_css": [
-        "a {background-color: #1478af; color: white;}"
+        "a {background-color: #1478af; color: white;}",
+        ".banner {max-width: 800px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/all-over-print-premium-pillow-18x18-front-641e3f3cdddc2.jpg",
