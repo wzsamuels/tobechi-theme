@@ -45,7 +45,7 @@
     "form": {
       "type": "contact-form",
       "custom_css": [
-        "button {background-color: #1478af; border-color: #1478af;}"
+        "button {background-color: #1478af; border-color: #1478af; color: white; border: none;}"
       ],
       "settings": {
         "heading": "",
