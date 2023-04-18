@@ -49,16 +49,16 @@
     "a8552e9a-f836-4940-b842-c43eb5f24185": {
       "type": "collage",
       "blocks": {
-        "9a72628b-5984-4697-b400-94d1e0f57f61": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pillow-you-are-loved.jpg"
-          }
-        },
         "template--18488366498071__a8552e9a-f836-4940-b842-c43eb5f24185-16808088849b13e900-2": {
           "type": "collection",
           "settings": {
             "collection": "frontpage"
+          }
+        },
+        "9a72628b-5984-4697-b400-94d1e0f57f61": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pillow-you-are-loved.jpg"
           }
         },
         "8c0afdbe-a55d-4914-9a85-bff53bedadeb": {
@@ -70,8 +70,8 @@
         }
       },
       "block_order": [
-        "9a72628b-5984-4697-b400-94d1e0f57f61",
         "template--18488366498071__a8552e9a-f836-4940-b842-c43eb5f24185-16808088849b13e900-2",
+        "9a72628b-5984-4697-b400-94d1e0f57f61",
         "8c0afdbe-a55d-4914-9a85-bff53bedadeb"
       ],
       "custom_css": [
