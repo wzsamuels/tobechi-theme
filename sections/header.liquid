@@ -293,6 +293,7 @@
         {%- endcase -%}
       {%- endfor -%}
 
+
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
@@ -311,6 +312,9 @@
           </div>
         {%- endif -%}
       </a>
+      <div class='twcss-mx-4'>
+        {%- render 'social-icons' -%}
+      </div>
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
