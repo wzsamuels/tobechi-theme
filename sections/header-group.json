@@ -31,7 +31,8 @@
       "type": "header",
       "custom_css": [
         ".header__heading-link .h2 {font-size: 4rem;}",
-        ".header__menu-item {font-size: 2rem;}"
+        ".header__menu-item {font-size: 2rem;}",
+        " .header {font-size: 5rem;}"
       ],
       "settings": {
         "logo_position": "middle-center",
