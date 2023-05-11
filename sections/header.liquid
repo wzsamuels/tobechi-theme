@@ -312,7 +312,7 @@
           </div>
         {%- endif -%}
       </a>
-      <div class='twcss-mx-4 header__icon'>
+      <div class='twcss-mx-16 header__icon'>
         {%- render 'social-icons' -%}
       </div>
     </div>
@@ -322,6 +322,30 @@
 {%- if settings.cart_type == "notification" -%}
   {%- render 'cart-notification', color_scheme: section.settings.color_scheme, desktop_menu_type: section.settings.menu_type_desktop -%}
 {%- endif -%}
+
+<style>
+  .header__heading-link {
+    font-size: 4rem;
+  }
+  .header__menu-item {
+    font-size: 2rem;
+  }
+
+  .header__icon--cart,
+  .header__icon {
+    transform: scale(1.25) !important;
+  }
+
+  @media screen and (min-width: 990px) {
+    .header__icon--cart,
+    .header__icon {
+      transform: scale(1.4) !important;
+    }
+    .header__icon {
+      margin-left: 3rem;
+    }
+  }
+</style>
 
 {% javascript %}
   class StickyHeader extends HTMLElement {

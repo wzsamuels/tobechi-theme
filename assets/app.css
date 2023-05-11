@@ -523,6 +523,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1rem;
 }
 
+.twcss-mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.twcss--mx-4 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
 .twcss-mt-\[25\%\] {
   margin-top: 25%;
 }
