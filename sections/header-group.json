@@ -32,7 +32,8 @@
       "custom_css": [
         ".header__heading-link .h2 {font-size: 4rem;}",
         ".header__menu-item {font-size: 2rem;}",
-        ".twcss-mx-16 {margin-left: 4rem;}"
+        ".twcss-mx-16 {margin-left: 4rem;}",
+        ".list-social {flex-wrap: no-wrap;}"
       ],
       "settings": {
         "logo_position": "middle-center",
