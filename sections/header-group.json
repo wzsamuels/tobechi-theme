@@ -33,7 +33,9 @@
         ".header__heading-link .h2 {font-size: 4rem;}",
         ".header__menu-item {font-size: 2rem;}",
         ".twcss-mx-16 {margin-left: 4rem;}",
-        ".list-social {flex-wrap: no-wrap;}"
+        ".list-social {flex-wrap: nowrap;}",
+        ".header__icon--cart {margin: 0;}",
+        ".list-social__link {padding: .5em;}"
       ],
       "settings": {
         "logo_position": "middle-center",
